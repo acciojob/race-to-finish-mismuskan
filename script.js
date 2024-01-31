@@ -28,3 +28,4 @@ Promise.any(promises)
   .catch((error) => {
     console.error("All promises were rejected:", error);
   });
+document.getElementById('btn').addEventListener('click', delayAndShowMessage);
